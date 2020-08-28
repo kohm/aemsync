@@ -114,7 +114,7 @@ const checkBeforePush = true
 // To use await, the call must be made inside an async function.
 // The result is a Promise so it can also be resolved with .then().
 // Only the first argument is mandatory.
-await push(pathToPush, { targets, onPushEnd, checkBeforePush })
+await push({ pathToPush, targets, onPushEnd, checkBeforePush })
 ```
 
 ### Description
